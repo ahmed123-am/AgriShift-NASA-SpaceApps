@@ -27,3 +27,20 @@
     "vite": "^8.3.0"
   }
 }
+{
+  "name": "agrishift",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://ahmed123-am.github.io/AgriShift-NASA-SpaceApps/",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    ...
+  }
+}

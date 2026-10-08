@@ -1,8 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/AgriShift-NASA-SpaceApps/', // 👈 أضف هذا السطر هنا باسم المستودع
+  base: '/AgriShift-NASA-SpaceApps/', // 👈 مسار المستودع ضروري لربط ملفات الـ JS والـ CSS
 })
