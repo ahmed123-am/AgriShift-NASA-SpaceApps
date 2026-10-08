@@ -27,6 +27,7 @@
     "vite": "^8.3.0"
   }
 }
+
 {
   "name": "agrishift",
   "private": true,
